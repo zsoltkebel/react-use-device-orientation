@@ -63,11 +63,7 @@ export const useDeviceOrientation = (
                 return false
             }
             if (permission !== 'granted') {
-                setError(
-                    new Error(
-                        'Request to access the device orientation was rejected: ' + permission
-                    )
-                )
+                setError(new Error('Request to access the device orientation was rejected'))
                 return false
             }
         }
