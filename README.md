@@ -6,6 +6,10 @@
 
 # Usage
 
+1. Import `useDeviceOrientation` hook.
+2. Call `requestAccess` which prompts the use to grant permission on iOS.
+3. Use the `orientation` data.
+
 ```js
 import { useDeviceOrientation } from 'react-use-device-orientation'
 
