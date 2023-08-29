@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/zsoltkebel/react-use-device-orientation/issues"
   },
-  "homepage": "https://github.com/zsoltkebel/react-use-device-orientation#readme"
+  "homepage": "https://github.com/zsoltkebel/react-use-device-orientation#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.2.2"
+  }
 }
