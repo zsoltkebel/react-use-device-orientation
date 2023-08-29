@@ -23,3 +23,7 @@ To obtain absolute orientation pass `"absolute"` to the hook as a parameter.
 ```js
 const { orientation, requestAccess, revokeAccess, error } = useDeviceOrientation('absolute')
 ```
+
+## More Info
+
+https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent#browser_compatibility
