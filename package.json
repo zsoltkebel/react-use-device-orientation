@@ -2,8 +2,13 @@
   "name": "react-use-device-orientation",
   "version": "1.0.0",
   "description": "A React hook to use device orientation on a website.",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
