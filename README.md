@@ -1,10 +1,10 @@
 # React useDeviceOrientation Hook
 
-# Install
+## Install
 
 `npm i react-use-device-orientation`
 
-# Usage
+## Usage
 
 1. Import `useDeviceOrientation` hook.
 2. Call `requestAccess` which prompts the use to grant permission on iOS.
