@@ -14,7 +14,7 @@
     "React"
   ],
   "author": "Zsolt Kebel",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zsoltkebel/react-use-device-orientation/issues"
   },
