@@ -1,33 +1,33 @@
 {
-  "name": "react-use-device-orientation",
-  "version": "1.0.0",
-  "description": "A React hook to use device orientation on a website.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zsoltkebel/react-use-device-orientation.git"
-  },
-  "keywords": [
-    "React"
-  ],
-  "author": "Zsolt Kebel",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zsoltkebel/react-use-device-orientation/issues"
-  },
-  "homepage": "https://github.com/zsoltkebel/react-use-device-orientation#readme",
-  "devDependencies": {
-    "@types/node": "^20.5.7",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "typescript": "^5.2.2"
-  }
+    "name": "react-use-device-orientation",
+    "version": "1.0.1",
+    "description": "A React hook to use device orientation on a website.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zsoltkebel/react-use-device-orientation.git"
+    },
+    "keywords": [
+        "React"
+    ],
+    "author": "Zsolt Kebel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/zsoltkebel/react-use-device-orientation/issues"
+    },
+    "homepage": "https://github.com/zsoltkebel/react-use-device-orientation#readme",
+    "devDependencies": {
+        "@types/node": "^20.5.7",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "typescript": "^5.2.2"
+    }
 }
