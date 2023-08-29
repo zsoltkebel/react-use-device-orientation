@@ -39,6 +39,7 @@ export const useDeviceOrientation = (
 
     const revokeAccessAsync = async (): Promise<void> => {
         window.removeEventListener('deviceorientationabsolute', onDeviceOrientation)
+        window.removeEventListener('deviceorientation', onDeviceOrientation)
         setOrientation(null)
     }
 
