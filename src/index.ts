@@ -44,7 +44,7 @@ export const useDeviceOrientation = (
     }
 
     const requestAccessAsync = async (): Promise<boolean> => {
-        if (typeof DeviceOrientationEvent !== 'object') {
+        if (typeof DeviceOrientationEvent !== 'function') {
             setError(new Error('Device orientation event is not supported by your browser'))
             return false
         }
